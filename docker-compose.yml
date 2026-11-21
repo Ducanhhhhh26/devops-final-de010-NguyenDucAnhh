@@ -25,8 +25,8 @@ services:
       start_period: 30s
     networks:
       - db-net
-
   # ---------------------------------------------------------------- Spring Boot
+
   app:
     # TODO 1: build image từ thư mục gốc, truyền build-arg APP_VERSION
     build:
@@ -72,3 +72,4 @@ networks:
 
 volumes:
   mysql_data:
+
